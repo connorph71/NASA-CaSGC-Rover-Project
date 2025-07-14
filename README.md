@@ -16,7 +16,7 @@ The rover was built to:
 
 ## 🖥️ GUI Control Panel (Processing)
 
-Located in `rover_gui_control.pde` A custom GUI created using the **ControlP5** library in Processing. It provides directional control and command buttons.
+Located in `Potty_GUI.pde` A custom GUI created using the **ControlP5** library in Processing. It provides directional control and command buttons.
 
 ### 🔘 GUI Features
 - Move Forward / Backward
@@ -30,7 +30,7 @@ The GUI connects via USB Serial to an Arduino-based microcontroller. Each button
 
 ## ⚙️ Arduino Firmware
 
-### `rover_main_control.ino`
+### `Potty_Code.ino`
 This is the main firmware used on the rover. It listens for serial commands from the GUI and controls motors and lights accordingly.
 
 #### 🛠️ Features
